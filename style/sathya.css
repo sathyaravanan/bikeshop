@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+height: 140px;
+background-color: rgb(15, 15, 20);
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.img5 {
+    width: 300px;
+    padding-right: 100px;
+}
+.main{
+    background: url(/sathya/images/w)no-repeat;
+    background: url("../images/logon.jpg")no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.nav-item a{
+    font-size: 27px;
+    color: rgb(44, 31, 219);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+
+}
+.nav-item a:hover{
+    color: rgb(15, 10, 3);
+}
+
+.btn0{
+    border-radius: 60px;
+    background-color: rgb(21, 187, 15);
+    font-size: 23px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40%;
+}
+.btn0:hover{
+    background-color: rgb(17, 7, 150);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Kalam', cursive;
+    border: 3px solid rgb(14, 187, 43);
+}
+.d-flex input{
+    border-radius: 60px;
+
+}
+.btn1{
+    background-color: rgb(21, 185, 15);
+    font-size: 20px;
+    border-radius: 60px;
+    height: 45px;
+    width: 40%;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    
+}
+.btn1:hover{
+    background-color: rgb(22, 109, 14);
+    transition: 0.5s;
+}
+.navbar-nav li{
+display: list-item;
+text-align: -webkit-match-parent;
+
+}
+.img-fluid{
+    color: black;
+}
+.row div{
+    padding: 25px;
+}
+.img-fluid:hover{
+    transform: translate(5px,3px);
+
+
+}
+.bt1{
+    background-color: rgb(241, 34, 34);
+    border-radius: 3%;
+    border-style: hidden;
+    color: white;
+
+}
+.bt2{
+    color: white;
+    border-radius: 3%;
+    border-style: hidden;
+    background-color: rgb(246, 35, 52);
+}
+
+.bt3{
+    width: 100px;
+}
+
+.CONTACT .row{
+    color: white;
+}
+.bt3{
+    border-radius: 7px;
+    font-size: 20px;
+}
+.btn12{
+    background-color: rgb(9, 226, 9);
+    font-size: 20px;
+    border-radius: 60px;
+    border: none;
+    outline: none; 
+    font-weight: 700; 
+    height: 35px;
+    width: 25%;
+}
+.btn12:hover{
+    background-color: rgb(252, 17, 9);
+}
+.nav-link
+{
+    font-weight: 650;
+    line-height: 2;
+    border-radius: 60px;
+}
+.collapse ul li{
+    padding-inline: 20px;
+}
+.quoates{
+    color: rgb(243, 242, 240);
+    font-weight: 600;
+    font-size: 45px;
+    animation: animate 1.5s linear infinite;
+}
+.quoates{
+    animation: bounce 3s linear;
+}
+
+@keyframes bounce{
+    50% {
+        transform: translateY(40px);
+
+    }
+    45%{
+        transform: translateY(-50px);
+    }
+}
+.collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
